@@ -14,11 +14,10 @@ namespace Pokemon_Console
         public void Run()
         {
             SeedPokemonTeam();
-            RunMenu();
         }
         public void RunMenu()
         {
-            bool continueToRunMenu = true;
+            bool continueToRunMenu = false;
 
             while (continueToRunMenu)
             {
@@ -42,7 +41,6 @@ namespace Pokemon_Console
                         UpdateAPokemonMenu();
                         break;
                     case "4":
-                        RemoveAPokemon();
                         break;
                     case "5":
                         continueToRunMenu = false;
@@ -81,8 +79,6 @@ namespace Pokemon_Console
                         $"\nMove One: {pokemon.MoveOne} \nMove Two: {pokemon.MoveTwo}" +
                         $"\nMove Three: {pokemon.MoveThree} \nMove Four: {pokemon.MoveFour}");
                 }
-                Console.WriteLine("\n\nPress any key to return to menu...");
-                Console.ReadKey();
             }
         }
         private void AddPokemonToTeam()
@@ -188,7 +184,7 @@ namespace Pokemon_Console
                         $"\nMove Three: {pokemonTeam[i].MoveThree} - Move Four: {pokemonTeam[i].MoveFour}");
                 }
                 Console.WriteLine("\n\nEnter position number of pokemon you wish to update");
-                int response = int.Parse(Console.ReadLine());
+                int response = int.Parse();
                 UpdateAPokemon(response);
             }
         }

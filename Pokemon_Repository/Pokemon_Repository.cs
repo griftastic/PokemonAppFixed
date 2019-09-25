@@ -9,19 +9,17 @@ namespace Pokemon_Repository
     public class PokemonRepository
     {
         List<Pokemon> _pokemonTeam = new List<Pokemon>();
+    }
 
         //add to list (limit pokemon to 6)
         public void AddPokemonToTeam(Pokemon pokemon)
         {
-            if (_pokemonTeam.Count >= 0 && _pokemonTeam.Count < 6)
-            {
-                _pokemonTeam.Add(pokemon);
-            }
+            _pokemonTeam.Add(pokemon);
         }
         //get list
         public List<Pokemon> GetPokemonTeam()
         {
-            return _pokemonTeam;
+            
         }
         //get one pokemon
         public Pokemon GetPokemonByTeamPosition(int teamPosition)
@@ -43,16 +41,10 @@ namespace Pokemon_Repository
             pokemon.MoveThree = updates.MoveThree;
             pokemon.MoveFour = updates.MoveFour;
         }
-        public void ChangeTeamPositionForAPokemon(int originalPosition, int newPosition)
-        {
-            Pokemon pokemon = _pokemonTeam[originalPosition];
-            _pokemonTeam.Insert(newPosition, pokemon);
-        }
         //remove pokemon
         public void RemovePokemonFromTeam(int teamPosition)
         {
             Pokemon pokemon = _pokemonTeam[teamPosition - 1];
             _pokemonTeam.Remove(pokemon);
         }
-    }
 }
