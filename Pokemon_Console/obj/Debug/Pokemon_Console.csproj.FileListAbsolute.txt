@@ -1,0 +1,10 @@
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\bin\Debug\Pokemon_Console.exe.config
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\bin\Debug\Pokemon_Console.exe
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\bin\Debug\Pokemon_Console.pdb
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\obj\Debug\Pokemon_Console.csprojAssemblyReference.cache
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\obj\Debug\Pokemon_Console.csproj.CoreCompileInputs.cache
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\obj\Debug\Pokemon_Console.exe
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\obj\Debug\Pokemon_Console.pdb
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\bin\Debug\Pokemon_Repository.dll
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\bin\Debug\Pokemon_Repository.pdb
+C:\Users\rmant\OneDrive\Documents\EFAClasses\.NetSEPT2019\CourseInfo\1-Gold\Challenges\PokemonConsoleApp\Pokemon_Console\obj\Debug\Pokemon_Console.csproj.CopyComplete
