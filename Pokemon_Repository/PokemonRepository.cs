@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Pokemon_Repository
 {
@@ -12,7 +8,7 @@ namespace Pokemon_Repository
     }
 
         //add to list (limit pokemon to 6)
-        public  AddPokemonToTeam(Pokemon pokemon)
+        public AddPokemonToTeam(Pokemon pokemon)
         {
             _pokemonTeam.Add(new Pokemon);
         }
@@ -34,19 +30,19 @@ namespace Pokemon_Repository
             pokemon.PokemonSpeciesName = updates.PokemonSpeciesName;
             pokemon.PokemonNickName = updates.PokemonNickName;
             pokemon.level = updates.Level
-            pokemon.PokemonType = updates.PokemonType;
+                pokemon.PokemonType = updates.PokemonType;
             pokemon.SecondaryType = updates.SecondaryType;
             pokemon.MoveOne = updates.MoveOne
-            pokemon.Movetwo = updates.MoveTwo;
+                pokemon.Movetwo = updates.MoveTwo;
             pokemon.MoveThree = updates.MoveThree;
             pokemon.MoveFour = updates.MoveFour
-        }
+            }
 
         public void UpdatePokemonByNickName(string nickName, Pokemon newPokemon)
         {
-            foreach(Pokemon p in pokemonList)
+            foreach (Pokemon p in pokemonList)
             {
-                if(nickName == p.PokemonNickName)
+                if (nickName == p.PokemonNickName)
                 {
                     p = new Pokemon;
                 }

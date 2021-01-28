@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pokemon_Repository
+﻿namespace Pokemon_Repository
 {
     private enum PokemonType
     {
@@ -32,9 +26,9 @@ namespace Pokemon_Repository
         public string PokemonNickName { get; set; }
         public i Level { get; set; }
         public PokemonType PokemonType { get; set; }
-        public PokeonType? SecondaryType 
+        public PokeonType? SecondaryType
         public string MoveOne { get; set; }
-        public  MoveTwo { get; set; }
+        public MoveTwo { get; set; }
         public string MoveThree { get; set; }
         public string MoveFour { get; set; }
 
@@ -46,10 +40,9 @@ namespace Pokemon_Repository
             Level = level;
             PokemonType = pokemonType;
             SecondaryType = secondaryType
-            MoveOne = moveOne;
+                MoveOne = moveOne;
             MoveTwo = moveTwo;
         }
             MoveThree = moveTwo;
             MoveFour = moveFour;
-    
 }
