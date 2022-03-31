@@ -6,8 +6,8 @@ namespace Pokemon_Console
     {
         static void Main(string[] args)
         {
-            ProgramUI program = ProgramUI();
-            program.Run);
+            ProgramUI ui = new ProgramUI();
+            ui.Run();
         }
     }
 }
